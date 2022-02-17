@@ -20,9 +20,9 @@ class Expedition extends Holiday{
 
     info(){
         super.info();
-        alert(`Bawalah ${this.gear.join(' dan juga')}`);
+        alert(`Bawalah ${this.gear.join(' dan juga ')}`);
     }
 }
 
-const tripWithGear = new Expedition('Semeru', 7, ['Kacamata', 'Jaket', 'Kamera']);
+const tripWithGear = new Expedition('Semeru', 7, ['Kacamata', 'Jaket']);
 tripWithGear.info();
